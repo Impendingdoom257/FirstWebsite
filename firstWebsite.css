@@ -1,0 +1,120 @@
+html{
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/736x/61/92/07/619207d21b1da50ea182e798aafab197.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: #90BEDE;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.button{
+    background-color: #90f3ff;
+    border: none;
+    color: #14110F;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
+    height: max-content;
+}
+
+.title{
+    font-size: 750%;
+    font-family:'Times New Roman', Times, serif;
+    color: #14110F;
+}
+
+.sectionPortion{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.sectionHeader{
+    text-align: center;
+    background-color: #989C94;
+    color: #14110F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+
+.sectionP{
+    background-color: #e3e7d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.surveyExplaination{
+    text-align: center;
+    margin: 5%;
+    background-color: #BDC2BF;
+}
+.fieldsetSection{
+    background-color: #E3E7D3;
+    border: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.inputPrompt{
+    margin-top: 5%;
+}
+
+.submit{
+    width: 5%;
+    height: 1%;
+    margin-left: 47%;
+}
+
+.resourceSection{
+    text-align: center;
+}
+
+.sectionR{
+    margin-top: 2%;
+    background-color: #e3e7d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titleImageSource{
+    text-align: center;
+    position:relative;
+
+}
+.imageSourceDesc{
+    position: relative;
+    text-align: center;
+    background-color: #BDC2BF;
+}
+
+.imageGrid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin: 5px;
+    padding: 15px;
+    justify-content: center;
+    width: fit-content;
+    margin-left: 39%;
+}
